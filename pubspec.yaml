@@ -1,0 +1,25 @@
+name: my_flutter_app
+
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if the package should be published to pub.dev
+
+version: 1.0.0+1
+
+environments:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqflite: ^2.0.0 # SQLite plugin
+  socket_io_client: ^2.0.0 # Sockets plugin
+
+  # Add basic UI dependencies here
+  provider: ^6.0.0 # State management
+  fluttertoast: ^8.0.0 # Toast notifications
+
+flutter:
+  uses-material-design: true
+  # Add assets and other configurations here
